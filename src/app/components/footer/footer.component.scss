@@ -2,7 +2,8 @@ ion-text {
     text-align: center;
     color: #fff;
     height: 55px;
+    font-family: 'Muli', sans-serif;
 }
 ion-toolbar {
-    --background: #c00;
+    --background: var(--custom-red-color);
 }

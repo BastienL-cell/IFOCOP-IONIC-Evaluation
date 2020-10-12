@@ -38,7 +38,7 @@ ion-menu.md ion-list#labels-list ion-list-header {
 
   margin-bottom: 18px;
 
-  color: #c00;
+  color: var(--custom-red-color);
 
   min-height: 26px;
 }
@@ -50,20 +50,20 @@ ion-menu.md ion-item {
 }
 
 ion-menu.md ion-item.selected {
-  --background: #c00;
+  --background: var(--custom-red-color);
 }
 
 ion-menu.md ion-item.selected ion-icon {
-  color: #c00;
+  color: var(--custom-red-color);
 }
 
 ion-menu.md ion-item ion-icon {
-  color: #c00;
+  color: var(--custom-red-color);
 }
 
 ion-menu.md ion-item ion-label {
   font-weight: 500;
-  color: #c00;
+  color: var(--custom-red-color);
 }
 
 ion-menu.ios ion-content {

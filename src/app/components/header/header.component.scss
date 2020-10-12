@@ -1,16 +1,22 @@
 ion-text{
     text-align: center;
     color: #fff;
+    font-family: 'Muli', sans-serif;
 }
 a {
     color: #fff;
 }
 ion-toolbar {
-    --background: #c00;
+    --background: var(--custom-red-color);
 }
 ion-buttons {
     justify-content: space-between;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+ion-menu-button {
+    
+    border: 1px solid var(--custom-red-color);
+    border-radius: 3px;
 }
