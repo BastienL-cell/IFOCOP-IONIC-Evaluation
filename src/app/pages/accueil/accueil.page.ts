@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from "../../services/data.service";
 
 @Component({
   selector: 'app-accueil',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AccueilPage implements OnInit {
 
-  constructor() { }
+  products: any[];
+
+  constructor(private productService : DataService) { }
 
   ngOnInit() {
+    this.products = this.productService.products;
   }
 
 }

@@ -81,6 +81,37 @@
   --custom-blue-color: #0000CC;
 }
 
+/* ------------------------------------- CUSTOM GLOBAL CSS --------------------------------------- */
+body {
+  font-family: "sans-serif";
+}
+h1, h2 ,h3 {
+  font-family: 'Original Surfer', cursive;
+  line-height: 1.3em;
+}
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #C00;
+}
+
+h1 span {
+  color: #00CC00;
+  font-size: 0.7em;
+  display: block;
+}
+h2 {
+  font-size: 2rem;
+  color: #C00;
+  text-align: center;
+}
+h3 {
+  font-size: 1.5rem;
+  color: #00CC00;
+}
+/* -------------------------------------------------------q--------------------------------------- */
+
+
 // @media (prefers-color-scheme: dark) {
 //   /*
 //    * Dark Colors

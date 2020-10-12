@@ -10,6 +10,7 @@ import { AccueilPage } from './accueil.page';
 import { HeaderComponentModule } from 'src/app/components/header/header.module';
 import { FooterComponentModule } from 'src/app/components/footer/footer.module';
 import { AcceuilComponentModule } from 'src/app/components/acceuil/acceuil.component.module';
+import { ProductComponentModule } from "src/app/components/product/product.module";
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { AcceuilComponentModule } from 'src/app/components/acceuil/acceuil.compo
     HeaderComponentModule,
     FooterComponentModule,
     AcceuilComponentModule,
+    ProductComponentModule,
     IonicModule,
     AccueilPageRoutingModule
   ],

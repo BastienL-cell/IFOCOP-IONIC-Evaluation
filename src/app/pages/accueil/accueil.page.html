@@ -2,6 +2,7 @@
 
 <ion-content>
     <app-acceuil></app-acceuil>
+    <app-product *ngFor="let product of products" [titre]="product.titre" [description]="product.description" [image]="product.image"></app-product>
 </ion-content>
 
 <app-footer></app-footer>

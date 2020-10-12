@@ -1,0 +1,30 @@
+.card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    .description {
+        text-align: center;
+    }
+
+    ion-button {
+        width: 100%;
+        text-align: center;
+        --background: var(--custom-red-color);
+        text-transform: none;
+
+        i {
+            padding-left: 5px;
+        }
+    }
+    
+    h3 {
+        color: var(--custom-green-color);
+        font-family: 'Original Surfer', cursive;
+        text-align: center;
+        line-height: 1.3em;
+        font-size: 1.5rem;
+    }
+}
