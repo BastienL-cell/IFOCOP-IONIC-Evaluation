@@ -1,5 +1,6 @@
 ion-text{
     text-align: center;
+    display: block;
     color: #fff;
     font-family: 'Muli', sans-serif;
 }
@@ -16,7 +17,6 @@ ion-buttons {
     margin-right: auto;
 }
 ion-menu-button {
-    
     border: 1px solid var(--custom-red-color);
     border-radius: 3px;
 }
