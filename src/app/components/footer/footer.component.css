@@ -1,0 +1,10 @@
+ion-text {
+  text-align: center;
+  color: #fff;
+  height: 55px;
+}
+
+ion-toolbar {
+  --background: #c00;
+}
+/*# sourceMappingURL=footer.component.css.map */
